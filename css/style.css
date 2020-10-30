@@ -4,6 +4,10 @@ margin:0;
 padding:0;
 }
 
+body{
+overflow-x: hidden!important;
+}
+
 :root{
     --white:#fff;
     --brown:#ac6e29;
@@ -382,4 +386,9 @@ footer{
     background:var(--skin);
 }
 
-
+#whatsapp{
+    position: fixed;
+    bottom: 70px;
+    right: -180px;
+   z-index:2;
+}
