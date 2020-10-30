@@ -70,13 +70,6 @@ nav ul li a:before {
 /*carousel end*/
 
 
-
-
-
-.demo_text{
-    border-top:4px solid var(--brown-light);
-}
-
 p{
     color:var(--txt);
     font-size:15px;
@@ -252,7 +245,21 @@ background-size: cover;
  
 }
 
+#whatsapp{
+    top:140px;
+    right: -170px!important;
+   z-index:2;
 }
+
+
+}
+
+#whatsapp {
+    position: fixed;
+    bottom: 70px;
+    right: -180px;
+  }
+
 
 /*end tab2 here*/
 
@@ -373,10 +380,12 @@ background-size: cover;
 
 .carousel-control-prev-icon{
     border-radius:50px 50px;
+
 }
 
 .carousel-control-next-icon{
     border-radius:50px 50px;
+
 }
 /*end second slider*/
 
@@ -386,9 +395,4 @@ footer{
     background:var(--skin);
 }
 
-#whatsapp{
-    position: fixed;
-    bottom: 70px;
-    right: -180px;
-   z-index:2;
-}
+
